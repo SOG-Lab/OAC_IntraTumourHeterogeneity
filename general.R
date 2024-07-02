@@ -17,7 +17,6 @@ suffix <- ""
 nRowTesting <- 50
 p.sig.value <- 0.05
 p.fdr.sig.value <- 0.05
-doctor.prefixes <- c("PAH", "JHH", "FMC", "NH", "RBH", "SAH", "TH")
 tumour.cols <- c(paste0(rep(c("Tumo", "tumo", "Primary tumo", "Primary Tumo", "primary tumo"), each = 2), c("r", "ur")), "TM", "TL", "TU")
 chromosomeNames <- c(paste0("chr", c(1:22, "X", "Y")))
 chromosomeArmNames <- paste(rep(chromosomeNames, each = 2), c("p", "q"), sep = ".")
